@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TerritorialArmyAppTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="loginTest(failed)">
+    <classes>
+      <class name="seleniumjava.TerritorialArmAppTest">
+        <methods>
+          <include name="verifyLogin"/>
+          <include name="openApp"/>
+          <include name="navigateToLogin"/>
+          <include name="closeBrowser"/>
+          <include name="enterDetails"/>
+        </methods>
+      </class> <!-- seleniumjava.TerritorialArmAppTest -->
+    </classes>
+  </test> <!-- loginTest(failed) -->
+  <test thread-count="5" name="logouttest(failed)">
+    <classes>
+      <class name="seleniumjava.TerritorialArmAppTest">
+        <methods>
+          <include name="verifyLogout"/>
+          <include name="openApp"/>
+          <include name="navigateToLogin"/>
+          <include name="closeBrowser"/>
+          <include name="enterDetails"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- seleniumjava.TerritorialArmAppTest -->
+    </classes>
+  </test> <!-- logouttest(failed) -->
+</suite> <!-- Failed suite [TerritorialArmyAppTestSuite] -->
