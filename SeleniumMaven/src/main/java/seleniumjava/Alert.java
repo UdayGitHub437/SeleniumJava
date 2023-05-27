@@ -44,7 +44,7 @@ public class Alert {
     @AfterTest
     public void closeBrowser()
     {
-    	driver.close();
+    	//driver.close();
     }
     
 }
